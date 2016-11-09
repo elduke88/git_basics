@@ -1,0 +1,44 @@
+
+.container {
+	width:100%;
+	margin-bottom: 50px;}
+
+ 
+
+
+
+.acme-logo {
+	display:inline-block;
+	margin: 5px;	
+	float: left;
+	}
+
+nav {display: inline-block;
+	color: grey;
+	margin-left: 350px;
+	font-size: 10;
+	list-style: none;
+	padding-bottom: 75px;
+	}
+
+li {display:inline;
+	padding: 8px;
+	font-size:16;
+	}
+
+
+
+.article  {
+	display:block;
+	margin: 5px;
+	width:50%;
+	float: left;
+	}
+
+
+
+@media all and (max-width: 960px) {
+	.anvil {
+		display: none;
+	}
+}
